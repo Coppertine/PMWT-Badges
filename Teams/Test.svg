@@ -1,0 +1,472 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    width="880px" height="256px" viewBox="0 0 880 256" enable-background="new 0 0 880 256" xml:space="preserve">
+    <style>
+        @font-face {
+            font-family: 'The Meshroom';
+            src: local('The Meshroom Regular'), local('TheMeshroom-Regular'),
+                url('https://github.com/Coppertine/PMWT-Badges/raw/main/fonts/TheMeshroom-Regular.woff2') format('woff2'),
+                url('https://github.com/Coppertine/PMWT-Badges/raw/main/fonts/TheMeshroom-Regular.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'PASTI';
+            src: local('PASTI Regular'), local('PASTI-Regular'),
+                url('https://github.com/Coppertine/PMWT-Badges/raw/main/fonts/PASTI-Regular.woff2') format('woff2'),
+                url('https://github.com/Coppertine/PMWT-Badges/raw/main/fonts/PASTI-Regular.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'PASTI';
+            src: local('PASTI Oblique'), local('PASTI-Oblique'),
+                url('https://github.com/Coppertine/PMWT-Badges/raw/main/fonts/PASTI-Oblique.woff2') format('woff2'),
+                url('https://github.com/Coppertine/PMWT-Badges/raw/main/fonts/PASTI-Oblique.woff') format('woff');
+            font-weight: normal;
+            font-style: italic;
+            font-display: swap;
+        }
+
+        .tournament-title {
+
+
+            height: 50px;
+        }
+
+        .tournament-subtitle {
+            font-family: 'PASTI';
+            font-size: 23px;
+            color: white;
+        }
+
+        .tournament-subtitle-winter {
+            font-family: "PASTI";
+            font-size: 18px;
+            background: -webkit-linear-gradient(white, #afcfff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+    <rect width="880" height="256" fill="url(#skyGradient)" />
+    <defs>
+        <linearGradient id="skyGradient" x1="100%" y1="100%">
+            <stop offset="0%" stop-color="#221c3b" stop-opacity=".5">
+                <animate attributeName="stop-color" values="#221c3b" dur="14s" repeatCount="indefinite"></animate>
+                <animate attributeName="offset" values=".60;.40;.20;.40;.60;" dur="14s" repeatCount="indefinite">
+                </animate>
+
+            </stop>
+            <stop offset="100%" stop-color="#171717" stop-opacity=".5">
+                <animate attributeName="stop-color" values="#171717" dur="14s" repeatCount="indefinite"></animate>
+            </stop>
+        </linearGradient>
+        <linearGradient id="tournament-title-gradient" x1="100%" y1="100%">
+            <stop offset="0%" stop-color="#7c53b9">
+            </stop>
+            <stop offset="100%" stop-color="#af86da">
+            </stop>
+        </linearGradient>
+        <linearGradient id="tournament-winter-gradient" x1="100%" y1="100%">
+            <stop offset="0%" stop-color="white">
+            </stop>
+            <stop offset="100%" stop-color="#afcfff">
+            </stop>
+        </linearGradient>
+        <pattern xmlns="http://www.w3.org/2000/svg" id="user1" patternContentUnits="objectBoundingBox" width="1"
+            height="1">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#image_user1" transform="scale(0.000976562)" />
+        </pattern>
+        <pattern xmlns="http://www.w3.org/2000/svg" id="user2" patternContentUnits="objectBoundingBox" width="1"
+            height="1">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#image_user2" transform="scale(0.000976562)" />
+        </pattern>
+        <pattern xmlns="http://www.w3.org/2000/svg" id="user3" patternContentUnits="objectBoundingBox" width="1"
+            height="1">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#image_user3" transform="scale(0.000976562)" />
+        </pattern>
+        <pattern xmlns="http://www.w3.org/2000/svg" id="user4" patternContentUnits="objectBoundingBox" width="1"
+            height="1">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#image_user3" transform="scale(0.000976562)" />
+        </pattern>
+        <image id="image_user1" width="1024" height="1024" xlink:href="https://a.ppy.sh/21130016?1675168374.jpeg" />
+        <image id="image_user2" width="1024" height="1024" xlink:href="https://a.ppy.sh/19446346?1673178351.jpeg" />
+        <image id="image_user3" width="1024" height="1024" xlink:href="https://a.ppy.sh/19446346?1673178351.jpeg" />
+        <image id="image_user4" width="1024" height="1024" xlink:href="https://a.ppy.sh/19446346?1673178351.jpeg" />
+    </defs>
+
+    <g>
+        <style type="text/css">
+            @keyframes ld-fall {
+                0% {
+                    transform: translate(0, 981px)
+                }
+
+                16.6% {
+                    transform: translate(0, 817.5px)
+                }
+
+                33.3% {
+                    transform: translate(0, 654px)
+                }
+
+                50.0% {
+                    transform: translate(0, 490.5px)
+                }
+
+                66.6% {
+                    transform: translate(0, 327px)
+                }
+
+                83.3% {
+                    transform: translate(0, 163.5px)
+                }
+
+                100% {
+                    transform: translate(0, 0px)
+                }
+            }
+
+            .ld.ld-fall {
+                animation: ld-fall 4s linear infinite;
+                transform: scale(0.5);
+                opacity: 0.5;
+            }
+
+            .ld.ld-fall2 {
+                animation: ld-fall 4s linear infinite;
+                animation-fill-mode: forwards;
+                transform: scale(0.5);
+                opacity: 0.5;
+            }
+        </style>
+        <g transform="translate(0 92.68017027305206)">
+            <g transform="translate(771.3990787185247 0)">
+                <g class="ld ld-fall2" style="animation-delay:-0.007989113258676905s;animation-duration:2s">
+                    <ellipse cx="-4.749250855138962" cy="-4.956307172914234" rx="1" fill="#a930ff"></ellipse>
+                </g>
+            </g>
+            <g transform="translate(1293.398446707316 0)">
+                <g class="ld ld-fall2" style="animation-delay:-0.9476956862369947s;animation-duration:4s">
+                    <ellipse cx="-4.369359075432782" cy="-5.886158531863294" rx="1" fill="#a930ff">
+                    </ellipse>
+                </g>
+            </g>
+            <g transform="translate(1343.1465960792168 0)">
+                <g class="ld ld-fall2" style="animation-delay:-1.2946409966244405s;animation-duration:2s">
+                    <ellipse cx="-3.4014026312473518" cy="-4.226711145577385" rx="1.25" fill="#a930ff">
+                    </ellipse>
+                </g>
+            </g>
+            <g transform="translate(1040.1472434855687 0)">
+                <g class="ld ld-fall2" style="animation-delay:-0.9305806914862451s;animation-duration:4s">
+                    <ellipse cx="-4.247273473626953" cy="-3.953431496786987" rx="1.25" fill="#a930ff">
+                    </ellipse>
+                </g>
+            </g>
+            <g transform="translate(1051.2060485696445 0)">
+                <g class="ld ld-fall2" style="animation-delay:-2.6181957498321156s;animation-duration:4s">
+                    <ellipse cx="-5.361972833736896" cy="-4.112821021104178" rx="1.25" fill="#a930ff">
+                    </ellipse>
+                </g>
+            </g>
+            <g transform="translate(433.3217629144724 0)">
+                <g class="ld ld-fall2" style="animation-delay:-3.9898260224892734s;animation-duration:4s">
+                    <ellipse cx="-5.060857644069856" cy="-4.421011782269153" rx="1.25" fill="#a930ff">
+                    </ellipse>
+                </g>
+            </g>
+            <g transform="translate(756.9219387796835 0)">
+                <g class="ld ld-fall2" style="animation-delay:-1.5615971493650411s;animation-duration:4s">
+                    <ellipse cx="-3.832160288198388" cy="-3.0662570534582763" rx="1.25" fill="#a930ff">
+                    </ellipse>
+                </g>
+            </g>
+            <g transform="translate(787.8291872374011 0)">
+                <g class="ld ld-fall2" style="animation-delay:-0.8713048536055776s;animation-duration:4s">
+                    <ellipse cx="-5.504453854585304" cy="-4.187978214420681" rx="1.25" fill="#a930ff">
+                    </ellipse>
+                </g>
+            </g>
+            <g transform="translate(97.02751560091158 0)">
+                <g class="ld ld-fall2" style="animation-delay:-0.895499143531401s;animation-duration:4s">
+                    <ellipse cx="-4.811377647968523" cy="-5.643947291946574" rx="1.25" fill="#a930ff">
+                    </ellipse>
+                </g>
+            </g>
+            <g transform="translate(1523.8695562851503 0)">
+                <g class="ld ld-fall2" style="animation-delay:-0.6519312768706622s;animation-duration:2s">
+                    <ellipse cx="-3.683829073551584" cy="-4.774934076718931" rx="1.25" fill="#a930ff">
+                    </ellipse>
+                </g>
+            </g>
+            <g transform="translate(1724.7336491390795 0)">
+                <g class="ld ld-fall2" style="animation-delay:-0.24009922004516904s;animation-duration:2s">
+                    <ellipse cx="-4.814181628853098" cy="-5.807215892766885" rx="1.25" fill="#a930ff">
+                    </ellipse>
+                </g>
+            </g>
+            <g transform="translate(839.1044227223982 0)">
+                <g class="ld ld-fall2" style="animation-delay:-0.06760655891462575s;animation-duration:2s">
+                    <ellipse cx="-5.386074538646244" cy="-4.377430493898501" rx="1.25" fill="#a930ff">
+                    </ellipse>
+                </g>
+            </g>
+            <g transform="translate(90.01208867998727 0)">
+                <g class="ld ld-fall2" style="animation-delay:-0.8923404052775981s;animation-duration:2s">
+                    <ellipse cx="-4.819828484805257" cy="-4.196217635667265" rx="1.25" fill="#a930ff">
+                    </ellipse>
+                </g>
+            </g>
+            <g transform="translate(1384.8836022583712 0)">
+                <g class="ld ld-fall2" style="animation-delay:-1.1738251429275532s;animation-duration:4s">
+                    <ellipse cx="-5.034502776881511" cy="-5.096484180347366" rx="1.25" fill="#a930ff">
+                    </ellipse>
+                </g>
+            </g>
+            <g transform="translate(1288.9417994220908 0)">
+                <g class="ld ld-fall2" style="animation-delay:-3.3897576260313604s;animation-duration:4s">
+                    <ellipse cx="-5.2461835099574" cy="-4.5481687417506755" rx="1.25" fill="#a930ff">
+                    </ellipse>
+                </g>
+            </g>
+            <g transform="translate(737.7176989129725 0)">
+                <g class="ld ld-fall2" style="animation-delay:-1.5718294432338626s;animation-duration:2s">
+                    <ellipse cx="-5.099890581831475" cy="-4.082105595472427" rx="1.25" fill="#a930ff">
+                    </ellipse>
+                </g>
+            </g>
+            <g transform="translate(664.0856347644565 0)">
+                <g class="ld ld-fall2" style="animation-delay:-3.3435578575265055s;animation-duration:4s">
+                    <ellipse cx="-5.664204333839139" cy="-4.795679618010576" rx="1.25" fill="#a930ff">
+                    </ellipse>
+                </g>
+            </g>
+            <g transform="translate(1515.1123683553296 0)">
+                <g class="ld ld-fall2" style="animation-delay:-0.9871278255171703s;animation-duration:4s">
+                    <ellipse cx="-3.960062191737285" cy="-3.360290594379845" rx="1.25" fill="#a930ff">
+                    </ellipse>
+                </g>
+            </g>
+            <g transform="translate(1611.9711175902605 0)">
+                <g class="ld ld-fall2" style="animation-delay:-0.2185545329643661s;animation-duration:4s">
+                    <ellipse cx="-4.502004493112156" cy="-5.700187929916325" rx="1.25" fill="#a930ff">
+                    </ellipse>
+                </g>
+            </g>
+            <g transform="translate(1719.2973602568868 0)">
+                <g class="ld ld-fall2" style="animation-delay:-1.6477440543567132s;animation-duration:2s">
+                    <ellipse cx="-4.222994926561161" cy="-5.0605845936345615" rx="1.25" fill="#a930ff">
+                    </ellipse>
+                </g>
+            </g>
+            <g transform="translate(557.8316660968069 0)">
+                <g class="ld ld-fall2" style="animation-delay:-1.2179229446173485s;animation-duration:4s">
+                    <ellipse cx="-4.834175687092705" cy="-4.432694676302971" rx="1.25" fill="#a930ff">
+                    </ellipse>
+                </g>
+            </g>
+            <g transform="translate(641.0337331010287 0)">
+                <g class="ld ld-fall2" style="animation-delay:-0.5344806745669297s;animation-duration:2s">
+                    <ellipse cx="-4.483510559829147" cy="-3.7144972408523875" rx="1.25" fill="#a930ff">
+                    </ellipse>
+                </g>
+            </g>
+            <g transform="translate(248.38548632285864 0)">
+                <g class="ld ld-fall2" style="animation-delay:-0.9256755808028303s;animation-duration:2s">
+                    <ellipse cx="-5.360129069500404" cy="-3.500272665349866" rx="1.25" fill="#a930ff">
+                    </ellipse>
+                </g>
+            </g>
+            <g transform="translate(460.9099556830827 0)">
+                <g class="ld ld-fall2" style="animation-delay:-1.7811856071012824s;animation-duration:2s">
+                    <ellipse cx="-3.230788069418894" cy="-3.6383514749878056" rx="1.25" fill="#a930ff">
+                    </ellipse>
+                </g>
+            </g>
+            <g transform="translate(1308.7129642660188 0)">
+                <g class="ld ld-fall2" style="animation-delay:-1.9275715625006984s;animation-duration:2s">
+                    <ellipse cx="-5.027515588475022" cy="-4.19745304434627" rx="1.25" fill="#a930ff">
+                    </ellipse>
+                </g>
+            </g>
+        </g>
+        <g transform="translate(0 -888.319829726948)">
+            <g transform="translate(771.3990787185247 0)">
+                <g class="ld ld-fall" style="animation-delay:-0.007989113258676905s;animation-duration:2s">
+                    <ellipse cx="-4.749250855138962" cy="-4.956307172914234" rx="1.25" fill="#a930ff">
+                    </ellipse>
+                </g>
+            </g>
+            <g transform="translate(1293.398446707316 0)">
+                <g class="ld ld-fall" style="animation-delay:-0.9476956862369947s;animation-duration:4s">
+                    <ellipse cx="-4.369359075432782" cy="-5.886158531863294" rx="1.25" fill="#a930ff">
+                    </ellipse>
+                </g>
+            </g>
+            <g transform="translate(1343.1465960792168 0)">
+                <g class="ld ld-fall" style="animation-delay:-1.2946409966244405s;animation-duration:2s">
+                    <ellipse cx="-3.4014026312473518" cy="-4.226711145577385" rx="1.25" fill="#a930ff">
+                    </ellipse>
+                </g>
+            </g>
+            <g transform="translate(1040.1472434855687 0)">
+                <g class="ld ld-fall" style="animation-delay:-0.9305806914862451s;animation-duration:4s">
+                    <ellipse cx="-4.247273473626953" cy="-3.953431496786987" rx="1.25" fill="#a930ff">
+                    </ellipse>
+                </g>
+            </g>
+            <g transform="translate(1051.2060485696445 0)">
+                <g class="ld ld-fall" style="animation-delay:-2.6181957498321156s;animation-duration:4s">
+                    <ellipse cx="-5.361972833736896" cy="-4.112821021104178" rx="1.25" fill="#a930ff">
+                    </ellipse>
+                </g>
+            </g>
+            <g transform="translate(433.3217629144724 0)">
+                <g class="ld ld-fall" style="animation-delay:-3.9898260224892734s;animation-duration:4s">
+                    <ellipse cx="-5.060857644069856" cy="-4.421011782269153" rx="1.25" fill="#a930ff">
+                    </ellipse>
+                </g>
+            </g>
+            <g transform="translate(756.9219387796835 0)">
+                <g class="ld ld-fall" style="animation-delay:-1.5615971493650411s;animation-duration:4s">
+                    <ellipse cx="-3.832160288198388" cy="-3.0662570534582763" rx="1.25" fill="#a930ff">
+                    </ellipse>
+                </g>
+            </g>
+            <g transform="translate(787.8291872374011 0)">
+                <g class="ld ld-fall" style="animation-delay:-0.8713048536055776s;animation-duration:4s">
+                    <ellipse cx="-5.504453854585304" cy="-4.187978214420681" rx="1.25" fill="#a930ff">
+                    </ellipse>
+                </g>
+            </g>
+            <g transform="translate(97.02751560091158 0)">
+                <g class="ld ld-fall" style="animation-delay:-0.895499143531401s;animation-duration:4s">
+                    <ellipse cx="-4.811377647968523" cy="-5.643947291946574" rx="1.25" fill="#a930ff">
+                    </ellipse>
+                </g>
+            </g>
+            <g transform="translate(1523.8695562851503 0)">
+                <g class="ld ld-fall" style="animation-delay:-0.6519312768706622s;animation-duration:2s">
+                    <ellipse cx="-3.683829073551584" cy="-4.774934076718931" rx="1.25" fill="#a930ff">
+                    </ellipse>
+                </g>
+            </g>
+            <g transform="translate(1724.7336491390795 0)">
+                <g class="ld ld-fall" style="animation-delay:-0.24009922004516904s;animation-duration:2s">
+                    <ellipse cx="-4.814181628853098" cy="-5.807215892766885" rx="1.25" fill="#a930ff">
+                    </ellipse>
+                </g>
+            </g>
+            <g transform="translate(839.1044227223982 0)">
+                <g class="ld ld-fall" style="animation-delay:-0.06760655891462575s;animation-duration:2s">
+                    <ellipse cx="-5.386074538646244" cy="-4.377430493898501" rx="1.25" fill="#a930ff">
+                    </ellipse>
+                </g>
+            </g>
+            <g transform="translate(90.01208867998727 0)">
+                <g class="ld ld-fall" style="animation-delay:-0.8923404052775981s;animation-duration:2s">
+                    <ellipse cx="-4.819828484805257" cy="-4.196217635667265" rx="1.25" fill="#a930ff">
+                    </ellipse>
+                </g>
+            </g>
+            <g transform="translate(1384.8836022583712 0)">
+                <g class="ld ld-fall" style="animation-delay:-1.1738251429275532s;animation-duration:4s">
+                    <ellipse cx="-5.034502776881511" cy="-5.096484180347366" rx="1.25" fill="#a930ff">
+                    </ellipse>
+                </g>
+            </g>
+            <g transform="translate(1288.9417994220908 0)">
+                <g class="ld ld-fall" style="animation-delay:-3.3897576260313604s;animation-duration:4s">
+                    <ellipse cx="-5.2461835099574" cy="-4.5481687417506755" rx="1.25" fill="#a930ff">
+                    </ellipse>
+                </g>
+            </g>
+            <g transform="translate(737.7176989129725 0)">
+                <g class="ld ld-fall" style="animation-delay:-1.5718294432338626s;animation-duration:2s">
+                    <ellipse cx="-5.099890581831475" cy="-4.082105595472427" rx="1.25" fill="#a930ff">
+                    </ellipse>
+                </g>
+            </g>
+            <g transform="translate(664.0856347644565 0)">
+                <g class="ld ld-fall" style="animation-delay:-3.3435578575265055s;animation-duration:4s">
+                    <ellipse cx="-5.664204333839139" cy="-4.795679618010576" rx="1.25" fill="#a930ff">
+                    </ellipse>
+                </g>
+            </g>
+            <g transform="translate(1515.1123683553296 0)">
+                <g class="ld ld-fall" style="animation-delay:-0.9871278255171703s;animation-duration:4s">
+                    <ellipse cx="-3.960062191737285" cy="-3.360290594379845" rx="1.25" fill="#a930ff">
+                    </ellipse>
+                </g>
+            </g>
+            <g transform="translate(1611.9711175902605 0)">
+                <g class="ld ld-fall" style="animation-delay:-0.2185545329643661s;animation-duration:4s">
+                    <ellipse cx="-4.502004493112156" cy="-5.700187929916325" rx="1.25" fill="#a930ff">
+                    </ellipse>
+                </g>
+            </g>
+            <g transform="translate(1719.2973602568868 0)">
+                <g class="ld ld-fall" style="animation-delay:-1.6477440543567132s;animation-duration:2s">
+                    <ellipse cx="-4.222994926561161" cy="-5.0605845936345615" rx="1.25" fill="#a930ff">
+                    </ellipse>
+                </g>
+            </g>
+            <g transform="translate(557.8316660968069 0)">
+                <g class="ld ld-fall" style="animation-delay:-1.2179229446173485s;animation-duration:4s">
+                    <ellipse cx="-4.834175687092705" cy="-4.432694676302971" rx="1.25" fill="#a930ff">
+                    </ellipse>
+                </g>
+            </g>
+            <g transform="translate(641.0337331010287 0)">
+                <g class="ld ld-fall" style="animation-delay:-0.5344806745669297s;animation-duration:2s">
+                    <ellipse cx="-4.483510559829147" cy="-3.7144972408523875" rx="1.25" fill="#a930ff">
+                    </ellipse>
+                </g>
+            </g>
+            <g transform="translate(248.38548632285864 0)">
+                <g class="ld ld-fall" style="animation-delay:-0.9256755808028303s;animation-duration:2s">
+                    <ellipse cx="-5.360129069500404" cy="-3.500272665349866" rx="1.25" fill="#a930ff">
+                    </ellipse>
+                </g>
+            </g>
+            <g transform="translate(460.9099556830827 0)">
+                <g class="ld ld-fall" style="animation-delay:-1.7811856071012824s;animation-duration:2s">
+                    <ellipse cx="-3.230788069418894" cy="-3.6383514749878056" rx="1.25" fill="#a930ff">
+                    </ellipse>
+                </g>
+            </g>
+            <g transform="translate(1308.7129642660188 0)">
+                <g class="ld ld-fall" style="animation-delay:-1.9275715625006984s;animation-duration:2s">
+                    <ellipse cx="-5.027515588475022" cy="-4.19745304434627" rx="1.25" fill="#a930ff">
+                    </ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+
+    <g>
+        <text x="840" y="220" dominant-baseline="middle" text-anchor="middle"
+            style="font-family: 'The Meshroom'; font-size: 20px;" fill="url(#tournament-title-gradient)">PMWT</text>
+        <text x="840" y="232" dominant-baseline="middle" text-anchor="middle" style="font-family: PASTI; font-size:7px;"
+            fill="white">PSYCHEDELICMUSH'S</text>
+        <text x="840" y="240" dominant-baseline="middle" text-anchor="middle" fill="url(#tournament-winter-gradient)"
+            style="font-family: PASTI; font-size:6.5px;">WINTER TOURNAMENT</text>
+    </g>
+
+    <g>
+        <text style="fill: white; font-family: PASTI, sans-serif; font-size: 20px;" x="420px" y="80px"
+            dominant-baseline="middle" text-anchor="middle">First Place</text>
+        <text style="fill: white; font-family: PASTI, sans-serif; font-size: 30px;" x="420px" y="110px"
+            dominant-baseline="middle" text-anchor="middle">SGMEN + XMM</text>
+    </g>
+
+    <rect width="400" height="1" x="220px" y="128" fill="white" />
+    <rect width="80" height="80" x="245px" y="150px" fill="url(#user2)" />
+    <rect width="80" height="80" x="337" y="150px" fill="url(#user1)" />
+    <rect width="80" height="80" x="429" y="150px" fill="url(#user3)" />
+    <rect width="80" height="80" x="521" y="150px" fill="url(#user4)" />
+</svg>
