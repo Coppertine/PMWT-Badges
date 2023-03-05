@@ -478,8 +478,7 @@
     </g>
 
     <rect width="400" height="1" x="240px" y="128" fill="white" />
-    <rect width="80" height="80" x="265px" y="150px" fill="url(#user2)" />
-    <rect width="80" height="80" x="357" y="150px" fill="url(#user1)" />
-    <rect width="80" height="80" x="449" y="150px" fill="url(#user3)" />
-    <rect width="80" height="80" x="541" y="150px" fill="url(#user4)" />
+    <rect width="80" height="80" x="357px" y="150px" fill="url(#user2)" />
+    <rect width="80" height="80" x="449" y="150px" fill="url(#user1)" />
+    
 </svg>
